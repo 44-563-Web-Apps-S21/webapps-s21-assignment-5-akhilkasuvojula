@@ -1,50 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Beautiful Blooms</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Beautiful Blooms</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+    table {
+    font-size: 15px;
+    color: black;
+    }
+
+    tr {
+    font-size: 18px;
+    color: black;
+    background-color: cornflowerblue;
+    }
+
+    td {
+    background-color: darkblue;
+    color: whitesmoke;
+    }
+    </style>
 </head>
+
 <body>
-<h1>Plants by Akhil Kasuvojula</h1>
-<div class="container">
-    <div class="row">
-        <div class="col-sm-2">K</div>
-        <div class="col-sm-2">A</div>
-        <div class="col-sm-2">S</div>
-        <div class="col-sm-2">U</div>
-        <div class="col-sm-2">V</div>
-        <div class="col-sm-2">O</div>
+    <h1>Plants by Akhil Kasuvojula</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">K</div>
+            <div class="col-sm-2">A</div>
+            <div class="col-sm-2">S</div>
+            <div class="col-sm-2">U</div>
+            <div class="col-sm-2">V</div>
+            <div class="col-sm-2">O</div>
+        </div>
+        <div class="row">
+            <div class="col-md">Kalmia</div>
+            <div class="col-md">Aquilegia</div>
+            <div class="col-md">Strelitzia</div>
+            <div class="col-md">Ulex</div>
+            <div class="col-md">Veronicastrum</div>
+            <div class="col-md">Oxalis</div>
+        </div>
     </div>
-    <div class="row">
-        <div class="col-md">Kalmia</div>
-        <div class="col-md">Aquilegia</div>
-        <div class="col-md">Strelitzia</div>
-        <div class="col-md">Ulex</div>
-        <div class="col-md">Veronicastrum</div>
-        <div class="col-md">Oxalis</div>
+    <p>Firstly the plants names are breaking at 767 because it is medium tag(md)
+        and letters break later because they are in small tag(sm). </p>
+    <div class="container">
+        <img src="Aquilegia.jpg" class="img-fluid" width="300px" height="300px">
+        <img src="strelitzia.jpg" class="img-fluid" width="300px" height="300px">
+        <img src="Kalmia.jpg" class="img-fluid" width="300px" height="300px">
     </div>
-</div>
-<p>Firstly the plants names are breaking at 767 because it is medium tag(md) 
-and letters break later because they are in small tag(sm). </p>
-<div class="container">
-    <img src="Aquilegia.jpg" class="img-fluid" width="300px" height="300px">
-    <img src="strelitzia.jpg" class="img-fluid" width="300px" height="300px">
-    <img src="Kalmia.jpg" class="img-fluid" width="300px" height="300px">
-</div>
-<br>
+    <br>
     <div class="container">
         <img src="Aquilegia.jpg" class="img-thumbnail" width="200px">
         <img src="strelitzia.jpg" class="img-thumbnail" width="200px">
         <img src="Kalmia.jpg" class="img-thumbnail" width="200px">
     </div>
-    
-    
+    <table class="table">
+        <caption>Discribing the information of about 6 letters with plant city and food.</caption>
+        <thead>
+            <tr>
+                <th scope="col">Letter</th>
+                <th scope="col">Plant</th>
+                <th scope="col">City</th>
+                <th scope="col">Food</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">K</th>
+                <td>Kalmia</td>
+                <td>Karimnagar</td>
+                <td>Koshihikari rice</td>
+            </tr>
+            <tr>
+                <th scope="row">A</th>
+                <td>ALPINIA</td>
+                <td>Akampally</td>
+                <td>Aioli</td>
+            </tr>
+            <tr>
+                <th scope="row">S</th>
+                <td>Sage</td>
+                <td>Suryapet</td>
+                <td>Shrimp</td>
+            </tr>
+            <tr>
+                <th scope="row">U</th>
+                <td>Ugni</td>
+                <td>Utah</td>
+                <td>Upma</td>
+            </tr>
+            <tr>
+                <th scope="row">V</th>
+                <td>Viola</td>
+                <td>Vikarabad</td>
+                <td>Virginia</td>
+            </tr>
+            <tr>
+                <th scope="row">O</th>
+                <td>Ostrya</td>
+                <td>Ontario</td>
+                <td>Omelette</td>
+            </tr>
+        </tbody>
+    </table>
+
+
 
 
 </body>
+
 </html>
